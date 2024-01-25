@@ -5,7 +5,7 @@
       <div class="nav">
         <img class="logo" :src="imagem" alt="" />
         <div class="menu">
-          <button class="btn" @click="navigate('home')">{{ nav[0] }}</button>
+          <button class="btn" id="home">{{ nav[0] }}</button>
           <button class="btn" @click="alterarEstiloComponente">{{ nav[1] }}</button>
           <button class="btn" @click="openContato">{{ nav[2] }}</button>
         </div>
